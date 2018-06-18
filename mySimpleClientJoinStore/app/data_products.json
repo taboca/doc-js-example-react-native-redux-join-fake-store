@@ -1,8 +1,8 @@
 {
-  "product": [
+  "products": [
     {
       "id": "1",
-      "title": "Coca-cola",   
+      "title": "Coca-cola",
       "kind" : "unhealthy"
     },
     {
