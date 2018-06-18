@@ -18,6 +18,39 @@ npm install --save redux-thunk
 
 (Marcio have no idea what thunk is really for at this point in writing this book)
 
+## Adding the redux "app" initial folder structure 
+
+```
+mkdir app
+cd app
+mkdir reducers
+mkdir actions
+mkdir containers
+mkdir components
+```
+
+### The static json file that will feed our criteria/product data store
+
+Create a file, within the ./app folder, named data_products.json`
+
+```
+{
+  "product": [
+    {
+      "id": "1",
+      "title": "Coca-cola",   
+      "kind" : "unhealthy"
+    },
+    {
+      "id": "2",
+      "title": "Fanta",
+      "kind" : "unhealthy"
+    }
+  ]
+}
+
+```
+
 ## References
 
 * https://medium.com/@mosesesan/tutorial-react-native-redux-boilerplate-4899f5c4f431
