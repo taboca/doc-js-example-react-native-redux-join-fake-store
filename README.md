@@ -1,4 +1,4 @@
-# This is an example that an UI element is added to a list (store) based on criteria from another store
+# Example of React Native Redux app bringing a collection of products to the screen
 
 If you have not setup your infrastructure for launching React Native, check the session/chapter for that (make sure you have $ create-react-native-app in your path and working).
 
