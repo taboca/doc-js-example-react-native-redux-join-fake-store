@@ -9,5 +9,4 @@ const mapDispatchToProps = dispatch => ({
   get_data_products: () => dispatch(get_data_products())
 })
 
-//export default connect(mapStateToProps, mapDispatchToProps)(AddList_button);
 export default connect(mapStateToProps, mapDispatchToProps)(LoadButton);

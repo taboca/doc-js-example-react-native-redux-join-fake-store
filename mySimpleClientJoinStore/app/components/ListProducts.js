@@ -8,10 +8,8 @@ import {
 } from 'react-native';
 
 const ListProducts = ({ products }) => {
-
-  console.log(products);
-  
-  return (
+    console.log(products);
+    return (
     <View style={{flex:1, backgroundColor: 'lightgray', padding:20}}>
       {products.map(item =>
         <ProductItem key={item.id} {...item}>
@@ -19,13 +17,11 @@ const ListProducts = ({ products }) => {
       )}
     </View>
   )
-
-
 }
 
 ListProducts.propTypes = {
   products: PropTypes.arrayOf(PropTypes.shape({
-    id    : PropTypes.number.isRequired,
+    id    : PropTypes.string.isRequired,
     title : PropTypes.string.isRequired,
     kind  : PropTypes.string.isRequired
   }).isRequired).isRequired
