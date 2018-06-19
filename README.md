@@ -1,3 +1,8 @@
+# This is part of the "Struggling with JavaScript" aka doc-js book
+
+* https://leanpub.com/doc-js
+* If you want to contribute to the book or join me as a coauthor pool, please get in contact mgalli at mgalli dot com subject "doc-js book"
+
 # Example of React Native Redux app bringing a collection of products to the screen
 
 If you have not setup your infrastructure for launching React Native, check the session/chapter for that (make sure you have $ create-react-native-app in your path and working).
