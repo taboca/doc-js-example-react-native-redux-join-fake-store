@@ -2,7 +2,19 @@
 
 If you have not setup your infrastructure for launching React Native, check the session/chapter for that (make sure you have $ create-react-native-app in your path and working).
 
-Imagine that we will have a sort of join operation in the client side. All using local static data for now, so not yet connected to the "AJAX" world (to remote data stores).
+## Pretesting the sample to see if works
+
+Git clone [this repository](https://github.com/taboca/doc-js-example-react-native-redux-join-jogic-store), then:
+
+```
+cd mySimpleClientJoinStore
+npm install
+npm start
+```
+
+## Recap of what I did to get here - you can also look at the commits
+
+All the following section is the dump of the things I had to do to get to here:
 
 ```
 create-react-native-app mySimpleClientJoinStore
